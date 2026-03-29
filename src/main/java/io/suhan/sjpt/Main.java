@@ -1,12 +1,12 @@
-package io.suhan;
+package io.suhan.sjpt;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParser;
-import io.suhan.auth.AuthService;
-import io.suhan.client.SjptClient;
-import io.suhan.client.SjptClientImpl;
-import io.suhan.http.HttpClient;
+import io.suhan.sjpt.auth.AuthService;
+import io.suhan.sjpt.client.SjptClient;
+import io.suhan.sjpt.client.SjptClientImpl;
+import io.suhan.sjpt.http.HttpClient;
 
 public class Main {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();

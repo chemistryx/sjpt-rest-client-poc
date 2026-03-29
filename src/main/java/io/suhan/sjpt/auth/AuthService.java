@@ -1,7 +1,7 @@
-package io.suhan.auth;
+package io.suhan.sjpt.auth;
 
-import io.suhan.Constants;
-import io.suhan.http.HttpClient;
+import io.suhan.sjpt.Constants;
+import io.suhan.sjpt.http.HttpClient;
 import okhttp3.FormBody;
 
 public class AuthService {

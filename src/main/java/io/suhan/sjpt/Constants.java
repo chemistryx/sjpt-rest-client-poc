@@ -1,4 +1,4 @@
-package io.suhan;
+package io.suhan.sjpt;
 
 public class Constants {
     public static final String PORTAL_BASE_URL = "https://portal.sejong.ac.kr";

@@ -1,8 +1,8 @@
-package io.suhan.client;
+package io.suhan.sjpt.client;
 
 import com.google.gson.JsonObject;
-import io.suhan.Constants;
-import io.suhan.http.HttpClient;
+import io.suhan.sjpt.Constants;
+import io.suhan.sjpt.http.HttpClient;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -46,7 +46,6 @@ public class SjptClientImpl implements SjptClient {
 
         RunContext ctx = context.pgmKey(Constants.PGM_KEY_GRAD_CERT).sysKey(Constants.SYS_KEY_SCH);
 
-        // 2. 데이터 조회
         JsonObject dmSearch = new JsonObject();
         dmSearch.addProperty("ORGN_CLSF_CD", context.orgnClsfCd());
         dmSearch.addProperty("STUDENT_NO", context.usrNo());
@@ -68,7 +67,6 @@ public class SjptClientImpl implements SjptClient {
 
         RunContext ctx = context.pgmKey(Constants.PGM_KEY_ACADEMIC_RECORD).sysKey(Constants.SYS_KEY_SCH);
 
-        // 2. 데이터 조회
         JsonObject dmSearch = new JsonObject();
         dmSearch.addProperty("ORGN_CLSF_CD", context.orgnClsfCd());
         dmSearch.addProperty("YEAR", "");

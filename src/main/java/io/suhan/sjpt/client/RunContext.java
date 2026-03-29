@@ -1,4 +1,4 @@
-package io.suhan.client;
+package io.suhan.sjpt.client;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;

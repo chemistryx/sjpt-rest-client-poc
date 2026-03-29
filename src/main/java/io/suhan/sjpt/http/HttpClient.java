@@ -1,4 +1,4 @@
-package io.suhan.http;
+package io.suhan.sjpt.http;
 
 import java.io.IOException;
 import java.net.CookieManager;
