@@ -1,5 +1,12 @@
 plugins {
     id "java"
+    id "application"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
 }
 
 group = "io.suhan"
@@ -20,4 +27,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass = "io.suhan.sjpt.Main"
 }
